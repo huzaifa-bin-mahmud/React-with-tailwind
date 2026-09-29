@@ -1,80 +1,69 @@
 const Hero = () => {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            Welcome to Our Website
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid
-            swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.
-          </p>
-          <div className="flex w-full md:justify-start justify-center items-end">
-            <div className="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
-              <label
-                htmlFor="hero-field"
-                className="leading-7 text-sm text-gray-600"
-              >
-                Placeholder
-              </label>
-              <input
-                type="text"
-                id="hero-field"
-                name="hero-field"
-                className="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
+         <section className="px-4 md:px-8 mt-12">
+            <div className="max-w-7xl mx-auto">
+               <div className="grid justify-center items-center gap-x-12 gap-y-16 lg:grid-cols-2">
+                  <div>
+                     <div className="max-w-3xl mx-auto text-center lg:mx-0 lg:text-left">
+                        <p className="mb-2 font-medium text-blue-700 text-sm uppercase"><span
+                           className="rotate-90 inline-block mr-2">|</span> Built to Grow with You</p>
+                        <h1 className="text-4xl text-slate-900 font-bold leading-tight! mb-6 md:text-5xl">
+                           Empower Brand with Human-Centered Solutions</h1>
+                        <p className="text-slate-600 text-lg leading-relaxed">Showcase your products and
+                           connect with your audience. Our all-in-one platform helps you manage operations and boost
+                           visibility — whether you're in fashion, beauty, wellness, or beyond.</p>
+
+                        <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
+                           <a href="#"
+                              className="py-2.5 px-4 text-sm rounded-md font-semibold text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                              Get Started Free
+                           </a>
+                           <a href="#"
+                              className="py-2.5 px-4 text-slate-900 text-sm font-semibold rounded-md bg-white border border-slate-300 transition-colors hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                              Explore Features
+                           </a>
+                        </div>
+                     </div>
+
+                     <div className="mt-12">
+                        <div className="grid gap-x-4 gap-y-6 text-center sm:grid-cols-3 lg:text-left">
+                           <div className="flex flex-col">
+                              <h5 className="text-blue-700 font-semibold text-2xl mb-2">10+</h5>
+                              <p className="text-base text-slate-600 font-medium">Years Experience</p>
+                           </div>
+                           <div className="flex flex-col">
+                              <h5 className="text-blue-700 font-semibold text-2xl mb-2">890</h5>
+                              <p className="text-base text-slate-600 font-medium">Cases Solved</p>
+                           </div>
+                           <div className="flex flex-col">
+                              <h5 className="text-blue-700 font-semibold text-2xl mb-2">250</h5>
+                              <p className="text-base text-slate-600 font-medium">Business Partners</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div className="columns-2 space-y-4">
+                     <div className="break-inside-avoid">
+                        <img src="https://readymadeui.com/images/face-primer-category.webp" alt="face-primer-category"
+                           className="w-full h-full object-cover object-top rounded-lg max-h-90" />
+                     </div>
+                     <div className="break-inside-avoid">
+                        <img src="https://readymadeui.com/images/product6.webp" alt="product6"
+                           className="w-full h-full object-cover object-top rounded-lg max-h-90" />
+                     </div>
+                     <div className="break-inside-avoid">
+                        <img src="https://readymadeui.com/images/product2.webp" alt="product2"
+                           className="w-full h-full object-cover object-top rounded-lg max-h-90" />
+                     </div>
+                     <div className="break-inside-avoid">
+                        <img src="https://readymadeui.com/images/skin-glow-category.webp" alt="skin-glow-category"
+                           className="w-full h-full object-cover object-top rounded-lg max-h-90" />
+                     </div>
+                  </div>
+               </div>
             </div>
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Button
-            </button>
-          </div>
-          <p className="text-sm mt-2 text-gray-500 mb-8 w-full">
-            Neutra shabby chic ramps, viral fixie.
-          </p>
-          <div className="flex lg:flex-row md:flex-col">
-            <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                className="w-6 h-6"
-                viewBox="0 0 512 512"
-              >
-                <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z" />
-              </svg>
-              <span className="ml-4 flex items-start flex-col leading-none">
-                <span className="text-xs text-gray-600 mb-1">GET IT ON</span>
-                <span className="title-font font-medium">Google Play</span>
-              </span>
-            </button>
-            <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                className="w-6 h-6"
-                viewBox="0 0 305 305"
-              >
-                <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z" />
-                <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z" />
-              </svg>
-              <span className="ml-4 flex items-start flex-col leading-none">
-                <span className="text-xs text-gray-600 mb-1">
-                  Download on the
-                </span>
-                <span className="title-font font-medium">App Store</span>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg"
-          />
-        </div>
-      </div>
-    </section>
+         </section>
   );
 };
 

@@ -1,9 +1,12 @@
+import TeamSection from "../components/about/TeamSection";
+import Testimonial from "../components/about/Testimonial";
 
 
 const About = () => {
     return (
         <div>
-            about pages
+            <TeamSection />
+            <Testimonial />
         </div>
     );
 };
